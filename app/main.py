@@ -11,7 +11,7 @@ print(settings.database_username)
 
 app = FastAPI()
 
-origins = ["https://www.google.com"]
+origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
