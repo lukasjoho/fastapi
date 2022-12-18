@@ -1,0 +1,9 @@
+##Check python version
+python3 --version
+
+##Activate venv
+source venv/bin/activate
+
+##Start server
+uvicorn app.main:app --reload
+
